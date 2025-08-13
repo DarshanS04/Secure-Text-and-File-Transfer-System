@@ -1,0 +1,17 @@
+body { background: #181a1b; color: #f8f9fa; }
+.card { background: #23272b; border: none; }
+.drag-drop-area {
+    border: 2px dashed #6c757d;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    background: #23272b;
+    color: #adb5bd;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+.drag-drop-area.dragover {
+    border-color: #0d6efd;
+    background: #212529;
+}
+.toast { min-width: 250px; }
