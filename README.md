@@ -67,4 +67,3 @@ A secure message/file encryption web app with face authentication (DeepFace SFac
 - `templates/` - HTML
 
 ---
-MIT License
