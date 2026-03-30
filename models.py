@@ -3,6 +3,8 @@ from bson.objectid import ObjectId
 import bcrypt
 import base64
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 client = MongoClient(os.environ.get('MONGO_URI', 'mongodb://localhost:27017/securetransfer'))
 db = client.get_database()

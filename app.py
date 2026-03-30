@@ -6,6 +6,8 @@ from auth import auth_bp, User
 from transfer import transfer_bp
 import os
 from flask_wtf.csrf import generate_csrf
+from dotenv import load_dotenv
+load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'supersecretkey')
